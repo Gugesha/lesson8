@@ -28,23 +28,64 @@
 /* first section */
 .banner{
     width: 100%;
+    height: 458px;
     display: block;
 }
 .longdiv{
+    position: relative;
     margin-bottom: 128px;
+    width: 100%;
+    height: 458px;
 }
 .darkdiv{
-    position: relative;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 828px;
+    height: 458px;
+    /* display: none; */
+}
+.darkdiv:hover .longdiv{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    /* position: relative; */
+    width: 828px;
+    height: 458px;
+    /* display: block; */
 }
 .textdiv{
+    display: flex;
+    flex-direction: column;
     width: 682px;
     height: 168px;
     position: absolute;
     left: 50%;
     top: 50%;
-    display: flex;
-    flex-direction: column;
-    transform: translate(-50%, -50%) ;
+    transform: translate(-50%, -50%) ; 
     background-color: #fff;
-
+}
+.container{
+    width: 1220px;
+    height: 1726px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 151.5px;
+}
+.wraper1{
+    width: 478px;
+    height: 1534.85px;
+    background-color: gold;
+}
+.wraper2{
+    width: 692px;
+    height: 1726px;
+    background-color: blue;
+}
+.services{
+    width:478px ;
+    height: 516.85px;
+    padding: 56px 35px;
+    margin-bottom: 50px;
 }
