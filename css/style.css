@@ -174,8 +174,9 @@
     height: 68px;
     background-color: aqua;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px;
 
 }
 .cont1{
@@ -187,6 +188,8 @@
     width: 834px;
     height: 68px;
     display: flex;
+    justify-content: space-between;
+    margin-left: 185px;
 }
 .contactdiv{
     width: 226px;
@@ -203,12 +206,21 @@
     align-items: center; 
 }
 .line{
-    color: red;
-    margin-top: 54px;
+    color: #6C6D72;
+    width: 1217px;;
+    margin: 0 auto;
 }
 .details{
     width:1220.01px;
     height:243px;
     background-color: antiquewhite;
-    margin: 0 auto;
+    margin: 50px auto;
+}
+.pages{
+    width: 659.01px;
+    height: 243px;
+}
+.pages1{
+    width: 103px;
+    height: 243px;
 }
