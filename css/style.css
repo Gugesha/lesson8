@@ -65,6 +65,7 @@
     transform: translate(-50%, -50%) ; 
     background-color: #fff;
 }
+/* second section */
 .container{
     width: 1220px;
     height: 1726px;
@@ -81,11 +82,66 @@
 .wraper2{
     width: 692px;
     height: 1726px;
-    background-color: blue;
+    background-color: palevioletred;
 }
 .services{
     width:478px ;
     height: 516.85px;
     padding: 56px 35px;
     margin-bottom: 50px;
+    background-color:#F4F4F4;
+    ;
+}
+.download{
+    width: 478px;
+    height: 412px;
+    padding: 50px 45px;
+    background-color:#F4F4F4;
+    margin-bottom: 50px;
+}
+.mainblue{
+    width: 478px;
+    height: 506px;
+    position: relative;
+}
+.blue{
+    padding: 96px 50px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.contactus{
+    width: 98px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin-bottom: 37px;
+}
+.right1{
+    width: 692px;
+    height: 192px;
+}
+.right2{
+    width: 692px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+.right3{
+    width: 692px;
+    height: 261.5px;
+    margin-bottom: 50px;
+}
+.right4{
+    width: 692px;
+    height: 105px;
+    margin-bottom: 50px;
+}
+.after-image{
+    width: 332px;
+    height: 248px;
 }
