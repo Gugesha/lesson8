@@ -26,14 +26,21 @@
     justify-content: space-around;
     width: 601px;
 }
-.second{
+.nav{
     width: 184px;
     height: 65px;
-    background-color: #6B77E5;
-    color: #fff;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.nav:hover{
+   background-color:  #6B77E5;
+   color: #fff;
+   font-family: 'Cabin', sans-serif;
+   font-size: 18px;
 }
 /* first section */
 .banner{
@@ -48,14 +55,14 @@
     /* margin-left: auto;
     margin-right: auto; */
     width: 100%;
-    height: 458px;
+    /* height: 458px; */
 }
 .darkdiv{
     position: absolute;
     left: 0%;
     top: 0%;
     width: 828px;
-    height: 458px;
+    height: 100%%;  
     visibility: hidden;
 }
 .longdiv:hover .darkdiv{
@@ -66,13 +73,23 @@
 .textdiv{
     display: flex;
     flex-direction: column;
-    width: 682px;
+    width: 482px;
     height: 168px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) ; 
-    background-color: #fff;
+}
+.about:nth-child(1){
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.about:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 10px;
 }
 /* second section */
 .container{
@@ -86,12 +103,10 @@
 .wraper1{
     width: 478px;
     height: 1534.85px;
-    background-color: gold;
 }
 .wraper2{
     width: 692px;
     height: 1726px;
-    background-color: palevioletred;
 }
 .services{
     width:478px ;
@@ -104,6 +119,9 @@
 .services-text{
     width: 107px;
     height: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
 }
 .services-li{
     width:408px;
@@ -114,9 +132,14 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.4px;
 }
 .services-li:hover{
     background-color: #6B77E5;
+    color: #fff;
 }
 .download{
     width: 478px;
@@ -230,7 +253,6 @@
 .content{
     width: 1219px;
     height: 68px;
-    background-color: aqua;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -253,6 +275,9 @@
     width: 226px;
     height: 68px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .circle{
     background-color: #4C4D52;
@@ -262,6 +287,17 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+.callus{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    size: 20px;
+}
+.point{
+    display: flex;
+    flex-direction: column;
+    width: 148px;
 }
 .line{
     color: #6C6D72;
