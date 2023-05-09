@@ -182,9 +182,14 @@
     margin-top: 22px;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 40px;
     text-align: center;
     width: 307px;
+    
+}
+.hepldiv:hover{
+    color: #fff;
 }
 .contactus{
     width: 182px;
